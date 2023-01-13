@@ -25,7 +25,7 @@ For Example:
 chrome.google.com.tr
   |            | 
   |            | 
-  |		  gTLD (Commerce)
+  |	  gTLD (Commerce)
   |	
 Sub Domain
 ```
@@ -80,19 +80,19 @@ foo.example.com.        A      192.0.2.23
 ## Task 4 - Making a Request:
 
 ```
-	   BROWSER
+	       BROWSER
 		  |
 		  |
 		  v
-	 RECURSIVE DNS <-----
-		  |			    |
-		  |			    |
-		  v			    |
-	   ROOT DNS			|
-		  |			    |
-		  |			    |
-		  v				|
-    AUTHORITATIVE DNS ---
+	    RECURSIVE DNS <-----
+		  |         	|
+		  |	    	|
+		  v	    	|
+	      ROOT DNS	    	|
+		  |	    	|
+		  |	   	|
+		  v	    	|
+          AUTHORITATIVE DNS ----
 
 ```
 - When you request a domain name, your computer first checks its local cache to see if you've previously looked up the address recently; if not, a request to your Recursive DNS Server will be made.
